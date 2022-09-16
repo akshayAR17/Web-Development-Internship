@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment-02</title>
+
+    <style>
+        body
+        {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .utube
+        {
+            box-shadow: 10px 15px 10px black;
+            border: 10px dotted deepskyblue;
+            width: 560px;
+            height: 400px;
+            font-size: small;
+            font-family: cursive;
+            color: deeppink;
+            cursor: pointer;
+            margin: 0 20px;
+            display: inline-block;
+            margin: 20px;   
+            border-radius: 10px;     
+        }
+
+        .mp4
+        {
+            width: 560px;
+            height: 400px; 
+            box-shadow: 10px 15px 10px black;
+            border: 10px dotted deepskyblue;
+            width: 560px;
+            height: 400px;
+            font-size: small;
+            font-family: cursive;
+            color: deeppink;
+            cursor: pointer;
+            margin: 20px;
+            border-radius: 15px;    
+        }
+
+        video
+        {
+            width: 560px;
+            height: 315px;
+        }
+
+        .mp3
+        {
+             box-shadow: 15px 10px 10px rgb(139, 123, 123);
+             border: 10px dotted deepskyblue;
+             width: 300px;
+             height: 150px;
+             margin: 20px;
+             color: deeppink;
+             border-radius: 15px;
+        }
+
+        img
+        {
+            width: 300px;
+            height: 300px;
+        }
+
+        td
+        {
+            text-align: center;
+            color: crimson;
+            font-size: 20px;
+            font-weight: bolder;
+            padding: 10px;
+        }
+
+        p
+        {
+            color: black;
+            font-size: medium;
+            font-family: cursive;
+        }
+
+    </style>
+
+</head>
+
+<body>
+      <h1 style="color: green; font-family: cursive; text-align: center;" > DEMO OF <mark>AUDIO, VIDEO </mark> and <mark>IFRAME TAGS</mark></h1>
+
+      <div class="utube">
+        <h2><i><u>Adding Youtube KGF - 02 trailer via IFRAME tag</u></i></h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jQsE85cI384" title="KGF-02 trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+      </div>
+
+      <br> <br>
+
+      <div class="mp4">
+        <h2><i><u>Adding mp4 video via VIDEO CONTROL TAG</u></i></h2>
+          <video controls>
+              <source src="assignment-02/video/production ID_4301618.mp4" title="house" alt = "house">
+          </video>
+      </div>
+
+      <br> <br> 
+
+      <div class="mp3">
+          <h2><i><u>Audio - mp3</u></i></h2>
+          <audio controls>
+              <source src="assignment-02/audio/Gurenge (osanime.com).mp3" title="demon slayer theme" alt = "demon slayer theme">
+          </audio>
+      </div>   
+
+        <br> <br> <br>
+        
+       <h2 style="font-size: 25px; color: deeppink"><u>Images with different paths</u></h2>
+       <table> 
+           <tr>
+            <td>KGF-02</td>
+            <td>RRR</td>
+            <td>PC</td>
+            <td>WORKSPACE</td>
+           </tr>
+
+           <tr>
+            <td><img src="assignment-02/images/kgf2.jpg" alt="KGF-02 POSTER" title = "KGF CHAPTER-02"></td>
+            <td><img src="assignment-02/images/_rrr_postponed.webp" alt="RRR POSTER"title="RRR"> </td>  
+            <td><img src="assignment-02/images/image01.jpg" alt="PC" title="PC"></td>
+            <td><img src="assignment-02/images/image02.jpg" alt="workspace" title="workspace"></td>
+           </tr>
+       
+       </table>
+     
+       <br> <br> <br>
+
+       <h1 style="color: deeppink"><u>Special Characters</u></h2>
+       <h2 style="color: black">TRADEMARK &trade;</h2>
+       <h2 style="color: black">COPYRIGHT SYMBOL &copy;</h2>
+       <h2 style="color: black">LEFTWARD ARROW &larr;</h2>
+       <h2 style="color: black">RIGHTWARD ARROW &rarr;</h2>
+       <h2 style="color: black">DOWNWARD ARROW &darr;</h2>
+       <h2 style="color: black">UPWARD ARROW &uarr;</h2>
+       <h2 style="color: black">DOLLAR &dollar;</h2>
+       
+       <p>Trademarks may or may not be registered and are denoted by the <mark>® and ™</mark>  symbols respectively.The symbol <mark>©</mark> (the letter C in a circle), or the word "Copyright" or the abbreviation "Copr."; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum placeat sapiente maiores. Iure sequi, ducimus officia iusto itaque dignissimos nesciunt atque quis dolorum, accusantium eos explicabo fugiat<mark>&leftarrow;</mark> nemo maiores! Quibusdam!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia odio<mark>&downarrow;</mark> blanditiis aperiam deleniti explicabo minima voluptate ipsam culpa aliquam, <mark>&rightarrow;</mark> ut corporis ea reiciendis doloremque<mark>&uparrow;</mark>, soluta animi quae dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, veniam magni. Placeat, tenetur doloremque dolor voluptatibus, temporibus deserunt maiores <mark>&dollar;</mark>numquam dolores facilis ut esse beatae libero atque assumenda sapiente? Possimus.</p>
+
+</body>
+
+</html>
