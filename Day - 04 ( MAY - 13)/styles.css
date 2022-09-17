@@ -1,0 +1,26 @@
+
+h1
+{
+    text-align: center;
+    color: green;
+    background-color: lightgreen;
+    font-family: cursive;
+}
+
+h2
+{
+    text-align: center;
+    color: deeppink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: lightpink;
+}
+
+p
+{
+    text-align: center;
+    color: blue;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+    font-family: serif;
+}
