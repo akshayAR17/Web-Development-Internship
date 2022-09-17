@@ -1,0 +1,185 @@
+<!--TASK WAS TO CREATE A FORM & TABLE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-03</title>
+
+    <style>
+        table
+        {
+            border: 15px groove lightgoldenrodyellow;
+            padding: 20px;
+            background-color: white;
+            margin: auto;
+        }
+
+        th
+        {
+            font-size: 25px;
+            font-family: cursive;
+            color: orange;
+            padding: 15px;
+        }
+
+        td
+        {
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: green;
+            padding: 15px;
+            text-align: center;
+        }
+
+        h1
+        {
+           color: blue;
+           font-family: cursive;
+           font-size: 35px;
+           text-align: center; 
+        }
+
+        form
+       {
+          width: 40%;
+          height: 650px;
+          box-shadow: 0 0 5px black;
+          padding: 20px 20px;
+          margin: auto;
+       }
+
+    </style>
+
+</head>
+
+<body>
+    <h1>STUDENT RECORD TABLE</h1>
+    <table border="4">
+        <tr>
+            <th>NAME</th>
+            <th>COURSE</th>
+            <th>ROLL.NO</th>
+            <th>SEMESTER</th>
+            <th>COLLEGE NAME</th>
+            <th>CITY</th>
+            <th>CONTACT NO</th>
+        </tr>
+
+        <tr>
+            <td>JOHN</td>
+            <td>CSE</td>
+            <td>17</td>
+            <td>III</td>
+            <td>IITB</td>
+            <td>Bombay</td>
+            <td>9000010000</td>
+        </tr>
+
+        <tr>
+            <td>Sam</td>
+            <td>ISE</td>
+            <td>18</td>
+            <td>III</td>
+            <td>BMSCE</td>
+            <td>Bangalore</td>
+            <td>8901000891</td>
+        </tr>
+
+        <tr>
+            <td>Ronaldo</td>
+            <td>MBBS</td>
+            <td>21</td>
+            <td>IV</td>
+            <td>Mysore Medical College</td>
+            <td>Mysore</td>
+            <td>7891110101</td>
+        </tr>
+
+        <tr>
+            <td>Harry</td>
+            <td>Master Of Arts</td>
+            <td>22</td>
+            <td>V</td>
+            <td>Harward University</td>
+            <td>United States</td>
+            <td>8711101543</td>
+        </tr>
+    </table>
+
+    <br> <br> <br>
+
+    <form>
+        <div>
+            <h1>F O R M</h1><hr> <br>
+            <label for="name">Username : </label>
+            <input type="text" name="uname" class="text" required> <br> <br>
+            <label for="email">Email : </label>
+            <input type="email" name="email" class="email" required><br> <br>
+            <label for="gender">Gender : </label>
+            <input type="radio" name="male" class="male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" class="female">
+            <label for="male">Female</label> <br> <br> 
+            <label for="pw">Password : </label>
+            <input type="password" name="pw" class="password" required/>  <br> <br>
+            <label for="select country">Country : </label>
+            <select name="Country" id="country">
+                <option>Select Country</option>
+                <option>Australia</option>
+                <option>Bangladesh</option>
+                <option>Canada</option>
+                <option>India</option>
+                <option>Kenya</option>
+                <option>Mexico</option>
+                <option>Nigeria</option>
+                <option>Philippines</option>
+                <option>Sri Lanka</option>
+                <option>Thailand</option>
+                <option>Vietnam</option>
+                <option>Zimbabwe</option>
+            </select><br> <br> <br>
+            <label for="state">State : </label>
+            <select name="State" id="state">
+                <option>Select State</option>
+                <option>Karnataka</option>
+                <option>Andhra Pradesh</option>
+                <option>Kerala</option>
+                <option>Tamil Nadu</option>
+                <option>Maharashtra</option>
+                <option>Jammu & Kashmir</option>
+                <option>Uttar Pradesh</option>
+                <option>Rajasthan</option>
+                <option>Gujarat</option>
+                <option>West Bengal</option>
+            </select> <br> <br>
+            <label for="city">City : </label>
+            <select name="City" id="city">
+                <option>Select City</option>
+                <option>Bangalore</option>
+                <option>Amaravati</option>
+                <option>Thiruvananthapuram</option>
+                <option>Chennai</option>
+                <option>Mumbai</option>
+                <option>Sri Nagar</option>
+                <option>Lucknow</option>
+                <option>Jaipur</option>
+                <option>Gandhinagar</option>
+                <option>Kolkata</option>
+            </select> <br> <br>
+            <label for="tel">Phone Number : </label>
+            <input type="tel" name="tno" placeholder="+91-12345-67890"> <br> <br>
+            <label for="dob">DOB : </label>
+            <input type="date" name="date"> <br>  <br>
+            <label for="text">Message : </label> <br><br>
+            <textarea name="text" placeholder="Message" rows="5" cols="30"></textarea> <br> <br>
+            <input type="reset" id="reset">
+            <input type="submit" id="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
