@@ -1,0 +1,52 @@
+body
+{
+    margin: 25px 25px;
+    background-color: lightgoldenrodyellow;
+    font-size: 15px;
+}
+
+h2
+{
+    color: brown;
+}
+
+#after::after
+{
+    content: ". Competitive Coder On CODECHEF.";
+    font-family: cursive;
+    color: green;
+}
+
+#before::before
+{
+    content: "Akshay stays in Bangalore. ";
+    color: green;
+    font-family: cursive;
+}
+
+h4::first-letter
+{
+    font-size: 100px;
+    color: crimson;
+}
+
+h3::first-line
+{
+    font-family: cursive;
+    color: darkmagenta;
+}
+
+.div1 p:nth-child(3n)
+{
+    border: 5px groove green;
+}
+
+p:first-child
+{
+    border: 5px dotted orangered;
+}
+
+p:last-child
+{
+    background-color: deeppink;
+}
