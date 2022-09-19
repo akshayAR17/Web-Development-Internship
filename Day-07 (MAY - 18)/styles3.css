@@ -1,0 +1,43 @@
+
+body
+{
+    background-color: lightgray;
+    font-family: cursive;
+}
+
+header
+{
+    font-size: 30px; 
+    font-family: cursive;
+    text-align: center;
+    color: green;
+    background-color: lightgreen;
+}
+
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: brown;
+    color: white;
+}
+
+.none h3
+{
+    display: none;
+}
+
+.i h3
+{
+    display: inline;
+}
+
+.ib p
+{
+    display: inline-block;
+}
+
+.flex
+{
+    display: flex;
+}
