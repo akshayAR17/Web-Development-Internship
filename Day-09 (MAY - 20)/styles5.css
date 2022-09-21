@@ -1,0 +1,64 @@
+
+body
+{
+    margin: 20px;
+    height: 1500px;
+}
+
+h1
+{
+    text-align: center;
+    color: green;
+    background-color: lightgreen;
+    font-family: cursive;
+}
+
+.box
+{
+    box-shadow: 5px 5px 10px black;
+    height: 100px;
+    width: 100px;
+}
+
+.box1
+{
+    background-color: deeppink;
+    left: 300px;
+    position: sticky;
+}
+
+.box2
+{
+    background-color: orange;
+    position: static;
+}
+
+.box3
+{
+    background-color: yellow;
+    top: 100px;
+    left: 400px;
+    position: relative;
+}
+
+.box4
+{
+    background-color: green;
+    position: fixed;
+    top: 100px;
+    left: 550px;
+}
+
+.box5
+{
+    background-color: aqua;
+    position: absolute;
+    left: 800px;
+}
+
+div
+{
+    text-align: center;
+    font-family: cursive;
+    margin: 10px;
+}
