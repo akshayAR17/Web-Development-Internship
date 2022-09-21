@@ -1,0 +1,65 @@
+
+ .minWidth
+    {
+        min-width: 500px;
+        background: lightcyan;
+    }
+
+    .maxWidth
+    {
+        background-color: lightgreen;
+        max-width: 300px;
+    }
+
+    .minHeight
+    {
+         background-color: burlywood;
+         min-height: 200px;
+    }
+
+    .maxHeight
+    {
+         background-color: darkgray;
+         max-height: 100px;
+    }
+
+    .allFourCombined
+    {
+        min-width: 150px;
+        min-height: 150px;
+        max-width: 300px;
+        max-height: 300px;
+        background-color: lightsteelblue;
+    }
+
+    .vppt
+    {
+        background-color: lightpink;
+        width: 30%;
+        height: 150px;
+        overflow: visible;
+    }
+
+    .hppt
+    {
+        background-color: lightskyblue;
+        width: 30%;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .sppt
+    {
+        background-color: lightgrey;
+        width: 30%;
+        height: 150px;
+        overflow: scroll;
+    }
+     
+    .appt
+    {
+        background-color: lightgreen;
+        width: 30%;
+        height: 150px;
+        overflow: auto;
+    }
