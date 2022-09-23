@@ -1,0 +1,107 @@
+body
+{
+    background-color:rgb(12, 16, 40);
+    color: white;
+    height: 130vh;
+}
+
+#details
+{
+    width: 100%;
+}
+
+.heading1
+{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.para
+{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3
+{
+    float: right;
+}
+
+.left-part
+{
+    width: 40%;
+    margin: 150px 100px;
+}
+
+.heading2
+{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content-top-left h4,.content-bottom-left h4
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: 1px;
+    color:crimson;
+   
+}
+
+span
+{
+    color: crimson;
+}
+
+input[type="text"],input[type="email"],input[type="tel"]
+{
+    background-color: rgb(12, 16, 40);
+    outline: none;
+    border: none;
+    font: 15px sans-serif;
+    color: whitesmoke;
+    border-bottom: 1px solid white;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+
+.content-top-left p,.content-bottom-left p
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-top-right,.content-bottom-right
+{
+    float: right;
+    margin-right: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -100px;
+   
+}
+
+.right-section
+{
+    margin: -530px 100px;
+    width: 35%;
+    float: right;
+}
+
+.right-section p
+{
+    font-size: 12px;
+    float: right;
+    font-family:sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    color: crimson;
+    text-decoration: underline;
+}
