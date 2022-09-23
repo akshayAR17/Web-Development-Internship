@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.images
+{
+    width: calc(100% - 40px);
+    margin: 20px 20px;
+    padding: 30px;
+    background-color: lightgreen;
+}
+
+.title h2
+{
+   margin-bottom: 15px;
+   text-align: center;
+}
+
+.title
+{
+    padding: 25px;
+    margin: auto;
+    border: 3px dotted red;
+    border-radius: 10px;
+    background-color: lightpink;
+    overflow: hidden;
+    max-width: 350px;
+}
+
+.paragraph
+{
+    background-color: lightskyblue;
+    margin: 30px;
+    padding: 30px;
+}
+
+.paragraph p
+{
+    border-radius: 3px 30px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
