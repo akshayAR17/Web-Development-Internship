@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignemnt - 15</title>
+    <script src="script2.js"></script>
+
+    <style>
+        h1
+        {
+          background-color: lightgreen;
+          color: orangered;
+          font-family: cursive;
+          box-shadow: 0px 0px 15px black;
+          text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>JaVa ScRiPt OpErAtIoNs</h1>
+
+    <input type="text" id="n1"/> <br/> <br> <br>
+    <input type="text" id="n2"/> <br/> <br> <br>
+
+    <select id="operators">
+        <option value="+"> + </option>
+        <option value="-"> - </option>
+        <option value="x"> x </option>
+        <option value="/"> / </option>
+        <option value="%"> % </option>
+    </select>
+
+    <button onclick="calc();"> = </button>
+    <input type="text" id="result" />
+
+    <br> <br> <br>
+
+    <h2>ASSIGNMENT OPERATORS</h2>
+    <h3>1.Addition Assignment Operator (+=)</h3>
+    <p>n2 = <span id="add_assign"></span></p>
+    <h3>2.Subtraction Assignemnt Operator (-=)</h3>
+    <p>n1 = <span id="sub_assign"></span></p>
+    
+    <h2>String Concatenation</h2>
+    <p>text1 = "Almapod", text2 = "Internship"</p>
+    <p>text1 + text2 = <span id="concatenate">Almapod Internship</span></p>
+
+</body>
+</html>
