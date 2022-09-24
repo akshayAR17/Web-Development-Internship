@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - 14</title>
+
+    <style>
+        h1
+        {
+            color: darkgreen; 
+            background-color:lightgreen; 
+            text-align:center; 
+            font-family:cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ARITHMETIC OPERATIONS</h1>
+       <p>1. num1 + num2 = <span id="result1"></span></p>
+       <p>2. num1 - num2 = <span id="result2"></span></p>
+       <p>3. num1 * num2 = <span id="result3"></span></p>
+       <p>4. num1 / num2 = <span id="result4"></span></p>
+       <p>5. num1 ^ num2 = <span id="result5"></span></p>
+       <p>6. num1 % num2 = <span id="result6"></span></p>
+
+       <script>
+           var num1 = 15;
+           var num2 = 10;
+           var add = num1 + num2;
+           var sub = num1 - num2;
+           var mul = num1 * num2;
+           var quo = num1 / num2;
+           var pow = num1 ^ num2;
+           var mod = num1 % num2;
+
+           document.getElementById("result1").innerHTML = add;
+           document.getElementById("result2").innerHTML = sub;
+           document.getElementById("result3").innerHTML = mul;
+           document.getElementById("result4").innerHTML = quo;
+           document.getElementById("result5").innerHTML = pow;
+           document.getElementById("result6").innerHTML = mod;
+           
+       </script>
+</body>
+
+</html>
+
