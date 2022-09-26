@@ -1,0 +1,19 @@
+
+h1
+{
+    font-family: cursive;
+    color: green;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+
+h2
+{
+    font-family: cursive;
+    color: crimson;
+    font-size: 20px;
+    border-radius: 20px;
+}
