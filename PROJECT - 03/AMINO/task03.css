@@ -1,0 +1,900 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.rp
+{
+    color: red;
+}
+
+.gts
+{
+    color: #83bc2e;
+}
+
+.round-close:focus
+{
+    outline: none;
+}
+
+.nav-link
+{
+    color: black;
+    font-weight: 400;
+}
+
+.carousel-indicators li.active
+{
+    background-color: #83bc2e;
+}
+
+.image-info
+{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    color: white;
+    transform: translate(0%,-50%);
+}
+
+.non-hiding-nav-items
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.non-hiding-nav-items a, .non-hiding-nav-items a svg
+{
+    width: 24px;
+    height: 24px;
+    color: grey;
+}
+
+.nav-link:hover
+{
+    color: #83bc2e !important;
+}
+
+.carousel-inner
+{
+    width: 100vw !important;
+    height: 500px !important;
+}
+
+.main-carousel
+{
+    width: 100vw;
+    height: 500px;
+}
+
+.carousel-item
+{
+    width: 100vw;
+    height: 500px;
+}
+
+.carousel-item img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.row
+{
+    margin: 0px;
+}
+
+.special-container
+{
+    padding: 6rem 1rem;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.col-img
+{
+    height: 20rem;
+    position: relative;
+}
+
+.col-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators li
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.image-info h4
+{
+    width: 12ch;
+}
+
+.image-info a::after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 1px solid white;
+    width: 0;
+}
+
+.image-info a:hover
+{
+    text-decoration: none;
+}
+
+.image-info a:hover::after
+{
+    width: 100%;
+    transition: width 0.5s linear;
+}
+
+.jumbotron
+{
+    margin-bottom: 0;
+    margin-left: calc(1rem + 15px);
+    margin-right: calc(1rem + 15px);
+}
+
+.title::after
+{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 250px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid black;
+}
+
+.card-img-custom img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+}
+
+.card
+{
+    width: 18rem;
+}
+
+.custom-flex
+{
+    display: flex;
+    justify-content: center;
+}
+
+.gap-2
+{
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.shop-cards
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 2rem;
+}
+
+.special-add
+{
+    background-color: #83bc2e;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-setting img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.black
+{
+    background-color: black;
+    color: whitesmoke;
+    margin-bottom: none;
+    text-align: center;
+    border-radius: none;
+}
+
+.add-title
+{
+    font-family: 'Parisienne', cursive;
+    font-size: 1rem;
+}
+
+.alert
+{
+    border: none;
+}
+
+.italic-title
+{
+    font-family: 'Parisienne', cursive;
+    color: #83bc2e;
+}
+
+.title
+{
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-brand
+{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+}
+
+.jumbotron
+{
+    background-color: #83bc2e;
+    margin-top: 6rem;
+}
+
+.jumbo-data
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.jumbo-data svg
+{
+    width: 64px;
+    height: 64px;
+}
+
+.jumbo-data-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.jumbo-data p, .jumbo-data h5
+{
+    margin: 0;
+}
+
+.shop-price
+{
+    color: #83bc2e;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.round-close
+{
+    opacity: 1;
+}
+
+.card-img-custom
+{
+    width: 18rem;
+    height: 14rem;
+
+}
+
+.image-info a
+{
+    color: white;
+    position: relative;
+    margin-top: 28px;
+    display: inline-block;
+}
+
+.add-content
+{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.add-main-title
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sign-up input
+{
+    background-color: transparent;
+    border: 1px solid white;
+    border-right: none;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    flex-grow: 1;
+    color: white;
+}
+
+.col-img-2 img
+{
+    width: 100%;
+    height: 80%;
+    object-fit: scale-down;
+}
+
+.round-close svg
+{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.sign-up button
+{
+    border-bottom-right-radius: 100px;
+    background-color: white;
+    border-top-right-radius: 100px;
+    text-align: center;
+}
+
+.colon
+{
+    font-size: 2rem;
+}
+
+.margin-top-6
+{
+    margin-top: 6rem;
+}
+
+.img-user
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow:hidden;
+    justify-self: center;
+    margin: 0 8px;
+    align-self: center;
+}
+
+.img-user img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    background-color: #fafafa;
+    color: #83bc2e !important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.nav-pills
+{
+    justify-content: center;
+    margin-bottom: 3rem !important;
+}
+
+.card-grid
+{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.testimonial-content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.products-bg
+{
+    background-color: #fafafa;
+}
+
+.time
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.time div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.col-img-2
+{
+    height: 12rem;
+}
+
+.time h3
+{
+    margin: 0;
+}
+
+.products-bg
+{
+    padding-bottom: 6rem;
+}
+
+.sign-up
+{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    width: 100%;
+}
+
+.tags
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.blog-card a p,.blog-card a h3
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sign-up button,.sign-up input 
+{
+    border: none;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.absolute-content
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: white;
+    padding-left: calc(1.1rem + 15px);
+    padding-right: calc(1.4rem + 15px);
+}
+
+.absolute-content h5
+{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.absolute-content h4
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stars svg
+{
+    width: 16px;
+    height: 16px;
+}
+
+.stars
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    color: gold;
+}
+
+.blog-grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.bc
+{
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    gap: 2.4rem;
+}
+
+.bc a
+{
+    color: black;
+    display: inline-block;
+}
+
+.blog-img
+{
+    
+    height: 250px;
+    position: relative;
+}
+
+.blog-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-by
+{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.blog-by p
+{
+    margin: 0;
+}
+
+.by
+{
+    color: #83bc2e !important;
+}
+
+footer
+{
+    background-color: #1d1d1d;
+    margin-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.tags span
+{
+    background-color: white;
+    color: black;
+    padding: 4px 16px;
+    border-radius: 100px;
+}
+
+.blog-card
+{
+    max-width: 100%;    
+}
+
+.blog-grid
+{
+    justify-content: center;
+}
+
+.blog-card a p
+{
+    font-size: 1rem;
+}
+
+.blog-card a h3
+{
+    font-size: 1.2rem;
+}
+
+.sm
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: white;
+
+}
+
+.shop-now
+{
+    padding: 10px 30px;
+    border-radius: 100px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin-top: 28px;
+}
+
+.shop-now:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
+.main-carousel
+{
+    position: relative;
+    background-color: black;
+}
+
+footer ul
+{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 2rem;
+    opacity: 0.9;
+}
+
+footer li
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+footer li a
+{
+    display: inline-block;
+    color: white;
+}
+
+footer li a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer svg
+{
+    width: 16px;
+    height: 16px;
+}
+
+.fl
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.sm a
+{
+  
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #343434;
+    border-radius: 40%;
+    color: white;
+}
+
+.sm svg
+{
+    width: 18px;
+    height: 18px;
+    opacity: 0.65;
+}
+
+@media (min-width: 600px) 
+{ 
+
+    .blog-grid
+    {
+        justify-content: center;
+    }
+
+    .card-grid
+    {
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+
+    .img-user
+    {
+        align-self: flex-start;
+    }
+
+    .blog-card
+    {
+        max-width: 100%;
+        
+    }
+  
+    .testimonial-content
+    {
+        text-align: start;
+        align-items: flex-start;
+        padding-right: 18px;
+    }
+
+}
+
+@media (min-width: 750px) 
+{
+    .shop-cards
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .add-main-title
+    {
+        font-size: 4rem;
+        width: 9ch;
+        font-weight: 700;
+    }
+
+    .add-content
+    {
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 4rem;
+    }
+
+    .add-title
+    {
+        font-family: 'Parisienne', cursive;
+        font-size: 2rem;
+    }
+    
+    .add-content,.add-content p
+    {
+        text-align: start;
+    }
+   
+    .testimonial-content
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blog-card
+    {
+        max-width: 40%;
+    }
+    .blog-grid
+    {
+        justify-content: space-between;
+    }
+
+    footer li
+    {
+        justify-content: flex-start;
+    }
+
+    .footer-last
+    {
+        justify-content: space-between;
+    }
+
+    .img-user
+    {
+        align-self: center;
+    }
+
+    .testimonials
+    {
+        gap: 0;
+    }
+
+    .card-grid
+    {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .absolute-content h5
+    {
+        font-size: 3.5rem;
+        font-weight: 400;
+    }
+
+    .absolute-content h4
+    {
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+}
+
+.blog-grid
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 1000px) 
+{
+    .shop-cards
+    {
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .card-grid
+    {
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+
+    .testimonial-content
+    {
+        text-align: start;
+        align-items: flex-start;
+        padding-right: 18px;
+    }
+
+    .img-user
+    {
+        align-self: flex-start;
+    }
+
+    .absolute-content h4
+    {
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+
+    .blog-card
+    {
+        max-width: 30%;
+    }
+
+    .absolute-content h5
+    {
+        font-size: 4.5rem;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 1200px) 
+{
+    .shop-cards
+    {
+        grid-template-columns: repeat;
+    }
+}
